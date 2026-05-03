@@ -8,6 +8,7 @@ project.
 - Backend Server: Django, Python
 - Frontend: React, TypeScript, JavaScript, HTML/CSS
 - Database: PostgreSQL
+- Deployment: Docker
 - Authentication: JWT-based auth flow
 
 # Running the webapp in development mode
