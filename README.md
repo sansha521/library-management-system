@@ -1,5 +1,5 @@
 # public-affirmation-library
-This is the repository to showcase a sample public library database application called Public Affirmation Library.
+This is the repository for the public library database application.
 
 
 # Project Specification
