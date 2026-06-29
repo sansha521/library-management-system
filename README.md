@@ -13,10 +13,11 @@ This is the repository for the public library database application.
 # Running the webapp in development mode
 ## See the Readme in backend directory
 
-How to run it
+## How to Run
 
-Backend setup:
-bash
+### Backend Setup
+
+```bash
 cd be/server
 python -m venv ./venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -24,19 +25,45 @@ pip3 install -r requirements/requirements.txt
 cp example.env .env       # Configure DB credentials, JWT secret, MinIO, etc.
 python manage.py migrate
 python manage.py runserver
+```
 
-Frontend setup:
-bash
+### Frontend Setup
+
+```bash
 cd fe/frontend
 npm install
 npm run dev
+```
+
 Open http://localhost:3000
 
-With Docker Compose:
-bash
-docker-compose up    # Runs backend + database, MinIO, Redis
-Required environment variables (in .env): DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DJANGO_SECRET_KEY, JWT_SECRET_KEY, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_STORAGE_BUCKET_NAME, AWS_S3_URL, REDIS_HOST, REDIS_PORT.
+### With Docker Compose
 
+```bash
+docker-compose up
+```
+
+Runs the backend, database, MinIO, and Redis.
+
+### Required Environment Variables
+
+Create a `.env` file with the following variables:
+
+```text
+DB_NAME
+DB_USER
+DB_PASSWORD
+DB_HOST
+DB_PORT
+DJANGO_SECRET_KEY
+JWT_SECRET_KEY
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_STORAGE_BUCKET_NAME
+AWS_S3_URL
+REDIS_HOST
+REDIS_PORT
+```
 
 This is a role-based library booking system where you can book books and library rooms. 
 
