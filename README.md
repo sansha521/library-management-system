@@ -8,7 +8,6 @@ This is the repository for the public library database application.
 - Frontend Server: NextJS
 - Database Server: pgAdmin
 - Frontend: React, TypeScript, JavaScript, HTML/CSS
-- Database: PostgreSQL
 - Deployment: Docker
 - Authentication: JWT-based auth flow
 - Object storage: MinIO
