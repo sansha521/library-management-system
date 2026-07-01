@@ -6,7 +6,7 @@ This is the repository for the public library database application.
 🔧 Dev Stack
 - Backend Server: Django, Python
 - Frontend Server: NextJS
-- Database Server: pgAdmin
+- Database: PostgreSQL
 - Frontend: React, TypeScript, JavaScript, HTML/CSS
 - Deployment: Docker
 - Authentication: JWT-based auth flow
