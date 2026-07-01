@@ -5,10 +5,15 @@ This is the repository for the public library database application.
 # Project Specification
 🔧 Dev Stack
 - Backend Server: Django, Python
+- Frontend Server: NextJS
+- Database Server: pgAdmin
 - Frontend: React, TypeScript, JavaScript, HTML/CSS
 - Database: PostgreSQL
 - Deployment: Docker
 - Authentication: JWT-based auth flow
+- Object storage: MinIO
+- Cache: Redis
+- Tools: GitHub, VSCode
 
 # Running the webapp in development mode
 ## See the Readme in backend directory
@@ -80,22 +85,6 @@ The relational model looks like this:
 The web application is separated into library staff access and customer access. 
 All staff can use the Django admin to use the service. 
 All customers interact with the app through the custom frontend created using NextJS and Django Rest Framework. 
-
-An overview of the dev stack of this application is:
-Software  
-● Database server: pgAdmin 
-● Development platform: Docker 
-● Object Storage: MinIO 
-Programming Languages  
-● Frontend: TypeScript, NextJS 
-● Backend: Python, Django, Django Rest Framework 
-Database 
-● RDBMS development: PostgreSQL 
-● Cache/In-memory Database: Redis 
-Tools 
-● GitHub 
-● VSCode 
-● Docker Compose
 
 The main page looks like this:
 
